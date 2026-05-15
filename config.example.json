@@ -1,0 +1,18 @@
+{
+    "Sonarr": {
+        "ApiKey": "APIKEYHERE",
+        "BaseUrl": "http://localhost:8989/api/v3",
+        "RootPath": "LOCATIONHERE",
+        "QualityProfileId": 1
+    },
+    "Radarr": {
+        "ApiKey": "APIKEYHERE",
+        "BaseUrl": "http://localhost:7878/api/v3",
+        "RootPath": "LOCATIONHERE",
+        "QualityProfileId": 1
+    },
+    "General": {
+        "DownloadTempPath": "LOCATIONHERE",
+        "CommandFile": "yt-dlpcommands.txt"
+    }
+}

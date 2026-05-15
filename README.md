@@ -45,7 +45,7 @@ cd ..
 ```
 
 ### 3. Configuration
-Edit the `config.json` in the root directory with your API keys and paths:
+Edit the `config.example.json` in the root directory with your API keys and paths then rename it to `config.json`:
 
 ```json
 {
@@ -100,14 +100,14 @@ npm run dev
 ## 📂 Project Structure
 
 ```text
-OmniGate CLI/
+OmniGate/
 ├── client/             # React + Vite Frontend
 │   ├── src/            # Dashboard Components & Logic
 │   └── tailwind.config.js
 ├── server/             # Node.js + Express Backend
 │   ├── index.js        # Server & Socket.io Setup
 │   └── routes.js       # API Endpoints & Automation Logic
-├── config.json         # User Configuration (Secret)
+├── config.example.json # Rename to config.json
 ├── omni-bridge.js      # Playwright Scraper Logic
 ├── OmniGate_CLI.ps1    # Legacy PowerShell Interface
 └── yt-dlpcommands.txt  # Persistent Download Queue
